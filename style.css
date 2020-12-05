@@ -1,0 +1,38 @@
+#number-guess, #result, #history {
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+#history {
+    margin-top: 16px;
+}
+  
+.banner {
+    color: #FFD23F;
+    font-size: 90px;
+    font-family: sans-serif;
+}
+
+.btn {
+    margin-right: 6px;
+}
+
+#invalid-feedback{
+    color: red;
+}
+@media screen and (max-width:770px){
+    #number-guess, #result, #history {
+        max-width: 70%;
+        margin: 0 auto;
+        
+    }
+    #history {
+        padding-top: 20px;
+    }
+
+    .banner{
+        font-size: 40px;
+    }
+}
+
